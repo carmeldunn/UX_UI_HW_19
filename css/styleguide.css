@@ -1,0 +1,133 @@
+:root { 
+  --carnation-pink: #1414af;
+  --carnation-pink-2: #1415af;
+  --dove-gray: #707070;
+  --tulip-tree: #e9ba2c;
+  --white: #ffffff;
+ 
+  --font-size-l: 25px;
+  --font-size-m: 18px;
+  --font-size-s: 15px;
+  --font-size-xl: 35px;
+  --font-size-xs: 14px;
+  --font-size-xxl: 40px;
+  --font-size-xxxl: 80px;
+ 
+  --font-family-avenir: "Avenir", Helvetica;
+  --font-family-avenir-black: "Avenir-Black", Helvetica;
+  --font-family-avenir-heavy: "Avenir-Heavy", Helvetica;
+  --font-family-avenir-medium: "Avenir-Medium", Helvetica;
+  --font-family-helveticaneue-regular: "HelveticaNeue-Regular", Helvetica;
+  --font-family-lato: "Lato", Helvetica;
+  --font-family-museo: "Museo", Helvetica;
+  --font-family-museo-500: "museo", Helvetica;
+  --font-family-museo-700: "museo", Helvetica;
+  --font-family-museo-900: "museo", Helvetica;
+}
+.museo-500-normal-white-18px {
+  color: var(--white);
+  font-family: var(--font-family-museo-500);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.avenir-medium-dove-gray-18px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-avenir-medium);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.avenir-medium-white-18px {
+  color: var(--white);
+  font-family: var(--font-family-avenir-medium);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.avenir-black-dove-gray-18px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-avenir-black);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 900;
+}
+
+.museo-900-normal-carnation-pink-40px {
+  color: var(--carnation-pink-2);
+  font-family: var(--font-family-museo-900);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.lato-bold-white-14px {
+  color: var(--white);
+  font-family: var(--font-family-lato);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.museo-medium-dove-gray-40px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-museo);
+  font-size: var(--font-size-xxl);
+}
+
+.avenir-medium-carnation-pink-15px {
+  color: var(--carnation-pink);
+  font-family: var(--font-family-avenir-medium);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.museo-normal-white-40px {
+  color: var(--white);
+  font-family: var(--font-family-museo);
+  font-size: var(--font-size-xxl);
+}
+
+.museo-900-normal-tulip-tree-40px {
+  color: var(--tulip-tree);
+  font-family: var(--font-family-museo-900);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.avenir-medium-dove-gray-25px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-avenir-medium);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.helveticaneue-regular-normal-dove-gray-25px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-helveticaneue-regular);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.avenir-heavy-normal-white-18px {
+  color: var(--white);
+  font-family: var(--font-family-avenir-heavy);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.museo-700-normal-white-18px {
+  color: var(--white);
+  font-family: var(--font-family-museo-700);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}

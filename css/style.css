@@ -1,0 +1,220 @@
+@import url("https://use.typekit.net/bzh4vmg.css");
+
+:root {
+  --main-color: #E6BD10;
+  --black: black;
+  --bg:grey;
+  --border:.1rem solid #1414AF;
+}
+
+*{
+  font-family: "Museo", serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: .2s linear;
+}
+
+html {
+  font-size: 75%;
+  overflow-x: hidden;
+  scroll-padding-top: 9rem;
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #fff;
+  border-radius: 5rem;
+}
+
+body {
+  background-color: white;
+  font-family: "Avenir";
+}
+
+.header {
+  background-color: #1414AF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 7%;
+  border-bottom: var(--border);
+  position: sticky;
+  top:0; left:0; right:0;
+  z-index: 1000;
+}
+
+
+.header .logo {
+  height: 6rem;
+}
+
+.header .navbar a {
+  margin: 0 1rem;
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+
+.header .navbar a:hover {
+  color:var(--main-color);
+  border-bottom: .1rem solid var(--main-color);
+  padding-bottom: .5rem;
+}
+
+
+.image {
+  max-width: auto;
+  height: auto;
+  padding: 1.5rem 7%;
+  padding-top: 5%;
+  display: flex;
+  align-items: center;
+  background: rgb(red, green, blue);
+}
+
+.content {
+  padding-left: 5%;
+  padding-top: 0%;
+  display:flexbox;
+  line-height: 150%;
+}
+
+h1 {
+  color: #1414AF;
+  font-style: "Museo";
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 100%;
+  letter-spacing: 2pt;
+  padding: 0;
+}
+
+h3 {
+  color: #767676;
+  font-style: "Museo";
+  font-weight:300;
+  font-size: 20px;
+  line-height: 100%;
+}
+
+p {
+  color: #767676;
+  font-weight:300;
+  font-size: 15px;
+  line-height: 130%;
+  font-family: "Avenir";
+  padding-right: 50px;
+}
+
+footer {
+  background-color: #1414AF;
+  height:auto;
+  width:100vw;
+  font-family: "Museo";
+  padding-top: 40px;
+  color: #fff;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.logo {
+  height: 4rem;
+  width: auto;
+}
+
+.footer-content h3{
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+.footer-content p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.fa-linkedin {
+  color: #fff;
+}
+
+.fa-vimeo {
+  color: #fff;
+}
+
+a:link {
+  color:white;
+  text-transform: lowercase;
+  letter-spacing: 1px;
+  font-family:"Avenir";
+  font-weight:normal;
+}
+a:hover {
+  color: #E6BD10;
+}
+
+button {
+  font-family: "avenir";
+}
+
+.uxuiProjects1 {
+  max-width: auto;
+  height: auto;
+  padding-left: 3.55%;
+  padding-top: 5%;
+  display: flex;
+  align-items: center;
+  background: rgb(red, green, blue);
+}
+
+.uxuiProjects1 h3{
+  color: #1414AF;
+  font-style: "Museo";
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 100%;
+  letter-spacing: 2pt;
+  padding: 0;
+}
+
+.uxuiProjects2 {
+  max-width: auto;
+  height: auto;
+  padding-left: 3.55%;
+  padding-top: 2%;
+  display: flex;
+  align-items: center;
+  background: rgb(red, green, blue);
+  padding-top: 45px;
+  padding-bottom: 60px;
+}
+
+.uxuiProjects2 h3{
+  color: #1414AF;
+  font-style: "Museo";
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 100%;
+  letter-spacing: 2pt;
+  padding: 0;
+}

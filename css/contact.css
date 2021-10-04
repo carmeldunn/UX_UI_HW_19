@@ -1,0 +1,311 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
+
+*{
+  font-family: "Museo", serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: .2s linear;
+}
+
+html {
+  font-size: 75%;
+  overflow-x: hidden;
+  scroll-padding-top: 9rem;
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #fff;
+  border-radius: 5rem;
+}
+
+body {
+	font-family:"Open Sans", Helvetica, Arial, sans-serif;
+	font-weight:300;
+	font-size: 12px;
+	line-height:30px;
+	color:#777;
+	background:#fff;
+}
+
+.header .logo {
+  height: 6rem;
+}
+
+footer {
+  background-color: #1414AF;
+  height:auto;
+  width:100vw;
+  font-family: "Museo";
+  color: #fff;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.logo {
+  height: 4rem;
+  width: auto;
+}
+
+.footer-content h3{
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+.footer-content p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.fa-linkedin {
+  color: #fff;
+}
+
+.fa-vimeo {
+  color: #fff;
+}
+
+a:link {
+  color:white;
+  text-transform: lowercase;
+  letter-spacing: 1px;
+  font-family:"Avenir";
+  font-weight:normal;
+}
+a:hover {
+  color: #E6BD10;
+}
+
+button {
+  font-family: "avenir";
+}
+
+
+
+
+
+
+
+
+
+
+body { background: #52c1f7; }
+* { box-sizing: border-box; }
+
+.container {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.title {
+  margin-bottom: 30px;
+  font-family: 'Mukta Mahee', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+}
+
+.wrapper {
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 20px 0 rgba(0,0,0, .1);
+  padding: 27.5px;
+}
+
+#contactForm {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-areas:
+    'name'
+    'email'
+    'company'
+    'phone'
+    'message';
+}
+
+.required-field {
+  grid-column: 1 / 2;
+}
+
+.submit-button {
+  grid-column: 2 / 3;
+}
+
+.name-field {
+  grid-area: name;
+  grid-column: 1 / 3;
+}
+
+.email-field {
+  grid-area: email;
+  grid-column: 1 / 3;
+}
+
+.company-field {
+  grid-area: company;
+  grid-column: 1 / 3;
+}
+
+.phone-field {
+  grid-area: phone;
+  grid-column: 1 / 3;
+}
+
+.message-field {
+  grid-area: message;
+  grid-column: 1 / 3;
+}
+
+/* FORM STYLES */
+
+.contact-me {
+  margin: 0 0 30px;
+  font-family: 'Mukta Mahee', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #1414AF;
+}
+
+.contact form {
+  border: 0;
+}
+
+.contact form label {
+  display: block;
+}
+
+.contact form p {
+  margin: 0;
+  font-family: 'Mukta Mahee', sans-serif;
+  font-weight: 200;
+  font-size: 12px;
+  color: rgba(74, 86, 96, 1);
+}
+
+.contact form input, .contact form textarea {
+  font-family: 'Mukta Mahee', sans-serif;
+  font-weight: 200;
+  font-size: 14px;
+  width: 100%;
+  padding: .4em .8em;
+  background: rgba(249, 250, 250, .5);
+  border: 1px solid rgba(74, 86, 96, .1);
+  border-radius: 2.5px;
+  outline-color: #1414AF;
+}
+
+.contact form button {
+  font-family: 'Mukta Mahee', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #fff;
+  background: #1414AF;
+  width: 90px;
+  height: 30px;
+  border: 0;
+  border-radius: 15px;
+}
+
+.submit-button {
+  align-self: center;
+  justify-self: end;
+}
+
+.contact form button:hover, .contact form button:focus {
+  background: #1414AF;
+  color: #fff;
+  outline: 0;
+  transition: background-color 0.3s ease-out;
+}
+
+.required-field {
+  font-family: 'Mukta Mahee', sans-serif;
+  font-weight: 200;
+  font-size: 10px;
+  color: rgba(74, 86, 96, 0.75);
+  align-self: center;
+  justify-self: start;
+}
+
+span {
+  color: #1414AF;
+}
+
+.alert {
+  margin-bottom: 1em;
+  padding: 10px;
+  background: #1414AF;
+  font-family: 'Mukta Mahee', sans-serif;
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+  border-radius: 2.5px;
+  display: none;
+}
+
+/* LARGE SCREENS */
+
+@media (min-width: 500px) {
+  #contactForm {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      'name company'
+      'email phone'
+      'message message';
+  }
+
+  .name-field {
+    grid-area: name;
+    grid-column: 1 / 2;
+  }
+
+  .email-field {
+    grid-area: email;
+    grid-column: 1 / 2;
+  }
+
+  .company-field {
+    grid-area: company;
+    grid-column: 2 / 3;
+  }
+
+  .phone-field {
+    grid-area: phone;
+    grid-column: 2 / 3;
+  }
+
+  .message-field {
+    grid-area: message;
+    grid-column: 1 / 3;
+  }
+}

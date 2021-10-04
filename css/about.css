@@ -1,0 +1,662 @@
+
+/* screen - about */
+
+.about {
+  align-items: center;
+  background-color: var(--carnation-pink-2);
+  display: flex;
+  flex-direction: column;
+  height: 4077px;
+  overflow: hidden;
+  width: 1920px;
+}
+
+.about .overlap-group8 {
+  height: 2451px;
+  margin-left: 1.0px;
+  position: relative;
+  width: 2787px;
+}
+
+.about .overlap-group3 {
+  height: 2451px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 2787px;
+}
+
+.about .carmel-dunn-bac-ncewall-1414-af {
+  height: 2177px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 2787px;
+}
+
+.about .group-329 {
+  display: flex;
+  height: 447px;
+  justify-content: flex-end;
+  left: 0;
+  position: relative;
+  top: 1920px;
+  width: 478px;
+  left:850px;
+  padding-bottom: 10px;
+}
+
+
+.about .img-370 {
+  flex: 1;
+  margin-bottom: 0.5px;
+  margin-left: 0;
+  margin-right: 0.4px;
+  object-fit: cover;
+}
+
+.about .path-24 {
+  height: 0;
+  margin-bottom: 0;
+  margin-right: 0;
+  object-fit: cover;
+  width: 0;
+}
+
+
+.about .my-path-into-uxui-b {
+  left: 849px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 812px;
+  width: 1090px;
+}
+
+.about .text-6 {
+  height: 99px;
+  left: 849px;
+  letter-spacing: 0;
+  line-height: 40px;
+  position: absolute;
+  text-align: center;
+  top: 636px;
+  width: 1090px;
+}
+
+.about .span1 {
+  color: var(--white);
+  font-family: var(--font-family-museo-700);
+  font-size: var(--font-size-l);
+}
+
+.about .text-7 {
+  height: 116px;
+  left: 849px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 1354px;
+  width: 1090px;
+}
+
+.about .text-8 {
+  height: 116px;
+  left: 849px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 1800px;
+  width: 1090px;
+}
+
+.about .text-9 {
+  height: 93px;
+  left: 849px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 1573px;
+  width: 1090px;
+}
+
+.about .span1-1 {
+  color: var(--tulip-tree);
+  font-family: var(--font-family-museo-700);
+  font-size: var(--font-size-xxl);
+}
+
+.about .text-10 {
+  left: 849px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 2364px;
+  width: 481px;
+}
+
+.about .text-15 {
+  left: 1458px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 2364px;
+  width: 481px;
+}
+
+.about .group-657 {
+  display: flex;
+  height: 40px;
+  left: 849px;
+  pointer-events: auto;
+  position: absolute;
+  top: 1450px;
+  transition: all 0.2s ease;
+  width: 232px;
+}
+
+.about .group-657:hover {
+  transform: scale(1.1);
+}
+
+.about .group-656 {
+  align-items: flex-end;
+  background-color: var(--tulip-tree);
+  border-radius: 35px;
+  display: flex;
+  height: 40px;
+  justify-content: flex-end;
+  min-width: 232px;
+  padding: 6.5px 71px;
+}
+
+.about .view-resume {
+  color: var(--carnation-pink-2);
+  font-family: var(--font-family-avenir-black);
+  font-size: var(--font-size-xs);
+  font-weight: 900;
+  letter-spacing: 0;
+  line-height: 14px;
+  min-height: 21px;
+  min-width: 88px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.about .group-658 {
+  display: flex;
+  height: 40px;
+  left: 1277px;
+  pointer-events: auto;
+  position: absolute;
+  top: 741px;
+  transition: all 0.2s ease;
+  width: 232px;
+}
+
+.about .group-658:hover {
+  transform: scale(1.1);
+}
+
+.about .linkedin {
+  background-color: #007ab7;
+  border-radius: 22.22px;
+  box-shadow: 0px 3px 6px #00000029;
+  height: 44px;
+  left: 849px;
+  pointer-events: auto;
+  position: absolute;
+  top: 1670px;
+  transition: all 0.2s ease;
+  width: 44px;
+}
+
+.about .linkedin:hover {
+  transform: scale(1.1);
+}
+
+.about .linkedin-1 {
+  height: 16px;
+  left: 14px;
+  object-fit: cover;
+  position: absolute;
+  top: 14px;
+  width: 16px;
+}
+
+.about .x294704vimeocircleicon {
+  height: 44px;
+  left: 911px;
+  object-fit: cover;
+  pointer-events: auto;
+  position: absolute;
+  top: 1670px;
+  transition: all 0.2s ease;
+  width: 44px;
+}
+
+.about .x294704vimeocircleicon:hover {
+  transform: scale(1.1);
+}
+
+.about .group-659 {
+  display: flex;
+  height: 46px;
+  justify-content: space-between;
+  left: 623px;
+  position: absolute;
+  top: 423px;
+  width: 139px;
+}
+
+.about .group-654 {
+  align-items: flex-end;
+  background-color: var(--white);
+  border-radius: 23px;
+  display: flex;
+  height: 46px;
+  min-width: 46px;
+  padding: 9.6px 12.4px;
+}
+
+.about .path-241 {
+  height: 24px;
+  object-fit: cover;
+  width: 16px;
+}
+
+.about .place {
+  color: var(--white);
+  font-family: var(--font-family-avenir-medium);
+  font-size: var(--font-size-l);
+  font-weight: 500;
+  height: 41px;
+  letter-spacing: 0;
+  line-height: 40px;
+  margin-bottom: 5.5px;
+  margin-right: -2px;
+  margin-top: -0.5px;
+  white-space: nowrap;
+  width: 83px;
+}
+
+
+.about .path-252 {
+  height: 46px;
+  object-fit: cover;
+  width: 70px;
+}
+
+.about .group-617 {
+  align-items: center;
+  background-color: var(--carnation-pink);
+  display: flex;
+  height: 270px;
+  left: 433px;
+  min-width: 1920px;
+  padding: 59.1px 190.1px;
+  position: absolute;
+  top: 0;
+}
+
+.about .group-616 {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  justify-content: center;
+  min-width: 126px;
+}
+
+.about .overlap-group {
+  height: 126px;
+  position: relative;
+  width: 126px;
+}
+
+.about .group-327 {
+  align-items: flex-end;
+  background-image: url(../img/path-234-1@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 126px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 126px;
+}
+
+.about .path-235 {
+  height: 0;
+  margin-bottom: 16.0px;
+  margin-left: 21.2px;
+  object-fit: cover;
+  width: 0;
+}
+
+.about .carmel-dunn-logo {
+  height: 105px;
+  left: 10px;
+  object-fit: cover;
+  position: absolute;
+  top: 12px;
+  width: 105px;
+}
+
+.about .text-18 {
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-left: 732px;
+  margin-top: 32.0px;
+  min-height: 24px;
+  min-width: 186px;
+  white-space: nowrap;
+}
+
+.about .text-19 {
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-left: 51px;
+  margin-top: 32.0px;
+  min-height: 24px;
+  min-width: 203px;
+  white-space: nowrap;
+}
+
+.about .about-1 {
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-left: 51px;
+  margin-top: 32.0px;
+  min-height: 24px;
+  min-width: 53px;
+  white-space: nowrap;
+}
+
+.about .place-1 {
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-left: 51px;
+  margin-top: 32.0px;
+  min-height: 24px;
+  min-width: 69px;
+  white-space: nowrap;
+}
+
+.about .flex-row {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 2.0px;
+  margin-top: 54px;
+  min-width: 1090px;
+}
+
+.about .overlap-group7 {
+  height: 501px;
+  position: relative;
+  width: 481px;
+}
+
+
+.about .text-1 {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 444px;
+  width: 481px;
+}
+
+.about .overlap-group5 {
+  height: 531px;
+  margin-left: 128px;
+  position: relative;
+  width: 481px;
+}
+
+.about .group-352 {
+  display: flex;
+  height: 447px;
+  justify-content: flex-end;
+  left: 0;
+  position: relative;
+  top: 1473px;
+  width: 478px;
+  left:1460px;
+  padding-bottom: 10px;
+}
+
+.about .group-353 {
+  display: flex;
+  flex-direction: column;
+  height: 447px;
+  justify-content: flex-end;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 478px;
+}
+
+.about .group-354 {
+  display: flex;
+  flex-direction: column;
+  height: 447px;
+  justify-content: flex-end;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 478px;
+}
+
+.about .screen-shot-202-at-9-52-39-pm1x {
+  flex: 1;
+  margin-bottom: 0.5px;
+  margin-left: 0;
+  margin-right: 0;
+  object-fit: cover;
+}
+
+.about .path-243 {
+  height: 0;
+  margin-bottom: 0;
+  margin-left: 0.4px;
+  object-fit: cover;
+  width: 0;
+}
+
+.about .flex-row-1 {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 2.0px;
+  margin-top: 55px;
+  min-width: 1090px;
+}
+
+.about .overlap-group6 {
+  height: 471px;
+  position: relative;
+  width: 481px;
+}
+
+.about .group-356 {
+  background-image: url(../img/img-3700-1x@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 446px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 478px;
+}
+
+
+
+.about .text-12 {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  top: 444px;
+  white-space: nowrap;
+  width: 481px;
+}
+
+.about .overlap-group4 {
+  height: 501px;
+  margin-left: 128px;
+  position: relative;
+  width: 481px;
+}
+
+.about .group-357 {
+  background-image: url(../img/img-3703-1x@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 446px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 478px;
+}
+
+.about .group-625 {
+  align-items: flex-end;
+  display: flex;
+  margin-top: 226px;
+  min-width: 1920px;
+}
+
+.about .overlap-group2 {
+  height: 260px;
+  margin-bottom: 0;
+  position: relative;
+  width: 1920px;
+}
+
+.about .footer-7 {
+  align-items: center;
+  background-color: var(--carnation-pink);
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  min-height: 260px;
+  padding: 35.0px 683px;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.about .overlap-group-1 {
+  height: 42px;
+  margin-right: 18.0px;
+  margin-top: 68px;
+  position: relative;
+  width: 206px;
+}
+
+.about .lets-connect {
+  left: 34px;
+  letter-spacing: 0;
+  line-height: 10px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+}
+
+.about .text-16 {
+  left: 0;
+  letter-spacing: 0;
+  line-height: 22px;
+  position: absolute;
+  text-align: center;
+  top: 15px;
+  white-space: nowrap;
+}
+
+.about .social {
+  align-items: flex-start;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 8.06px;
+  margin-top: 12px;
+  min-width: 147px;
+}
+
+.about .path-40 {
+  height: 25px;
+  margin-top: 0;
+  object-fit: cover;
+  width: 25px;
+}
+
+.about .path-39 {
+  align-self: flex-end;
+  height: 24px;
+  margin-bottom: 0;
+  margin-left: 40px;
+  object-fit: cover;
+  width: 29px;
+}
+
+.about .path-38 {
+  height: 25px;
+  margin-left: 40px;
+  margin-top: 0;
+  object-fit: cover;
+  width: 13px;
+}
+
+.about .text-17 {
+  align-self: flex-start;
+  letter-spacing: 0;
+  line-height: 19px;
+  margin-top: 16px;
+  min-height: 27px;
+  min-width: 514px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.about .overlap-group1 {
+  height: 58px;
+  left: 931px;
+  position: absolute;
+  top: 28px;
+  width: 58px;
+}
+
+.about .group-617-1 {
+  display: flex;
+  height: 58px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 58px;
+}
+
+.about .group-327-1 {
+  align-items: flex-end;
+  background-image: url(../img/path-234-2@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 58.4803466796875px;
+  width: 58.48046875px;
+}
+
+.about .path-235-1 {
+  height: 0;
+  object-fit: cover;
+  width: 0;
+}
+
+.about .carmel-dunn-logo-1 {
+  height: 50px;
+  left: 4px;
+  object-fit: cover;
+  position: absolute;
+  top: 5px;
+  width: 50px;
+}
